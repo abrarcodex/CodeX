@@ -1,0 +1,128 @@
+body{margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{padding: 3% 15% 8%;}
+
+#title{background-color: #ff4c68; color: #fff;
+font-weight: 400;}
+
+h1{font-family: 'Montserrat', sans-serif;
+font-size: 3.5rem;
+line-height: 1.5;
+font-weight: 900;}
+
+/* navigation bar */
+.navbar-brand{font-family: 'Ubuntu', sans-serif;
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.navbar{ padding: 0 0 4.5rem;}
+
+.nav-item{padding: 0 18px;}
+
+.nav-link{font-size: 1.2rem;
+font-family: 'Montserrat';
+font-weight: 300;
+}
+
+/* download buttons */
+
+.download-button{margin: 5% 3% 5% 0}
+
+/* title img */
+
+.title-img{width: 60%; transform: rotate(20deg);
+}
+
+/* feature */
+h3{font-family: montserrat;
+font-weight: bold;
+font-size: 1.5rem;
+}
+
+.fp{color: #8f8f8f;}
+
+.fimg{color: #ef8172;
+font-size: 500%;
+padding: 5% 3% 5% 0;}
+
+.ca{ padding: 5%;
+text-align: center;
+}
+
+.fimg:hover{color: #ff4c68;}
+
+#features{
+  /* margin: 4.5rem;  */
+
+text-align: center;
+padding: 5% 15%}
+
+
+/*  Testimonials  */
+#testimonials{
+text-align: center;
+background-color:#ef8172;
+color: #fff;}
+
+.carousel-item{padding: 3% 15%;}
+
+h2{font-family: Montserrat;
+font-weight: bold;
+font-size: 3rem;
+line-height: 1.5}
+
+.testimonial-img{border-radius: 100%;
+width: 15%;
+margin: 20px;}
+
+/* press */
+
+#press{padding: 3% 15%;
+text-align: center;
+background-color:#ef8172;
+color: #fff;
+padding: 0 15% 5%;}
+
+.presslogo{width: 20%;
+margin: 15px;
+text-align: center;}
+
+/* card */
+.card1{padding: 3% 2%;
+}
+
+
+/* z index */
+.zindex0{position: absolute;
+}
+.zindex1{position: relative;
+}
+
+/* @media */
+/* 992px 768px */
+@media(max-width:992px ){
+  .title-img{position:static;
+  transform: rotate(0);}
+
+  section{text-align: center;}
+}
+
+/* cta */
+#cta{background: #ff4c68; color: #fff;
+padding: 3% 15%;
+text-align: center;}
+
+/* .cta{color: #fff;} */
+
+
+.footer{padding: 3% 15%;
+text-align: center;
+color: gray;
+}
+
+.fabf{margin: 2%;
+color: black;}
+
+.fab:hover{color:#ff4c68;}
